@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include movilidadapp *.css
+recursive-include movilidadapp *.csv
+recursive-include movilidadapp *.html
+recursive-include movilidadapp *.ico
+recursive-include movilidadapp *.js
+recursive-include movilidadapp *.json
+recursive-include movilidadapp *.md
+recursive-include movilidadapp *.png
+recursive-include movilidadapp *.py
+recursive-include movilidadapp *.svg
+recursive-include movilidadapp *.txt
+recursive-exclude movilidadapp *.pyc
