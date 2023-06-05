@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-26 04:14:26.898663",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "aseguradora",
+  "vigenciaaseguradora",
+  "nombreac",
+  "curp",
+  "domicilio",
+  "atencion_section",
+  "tipoatencion",
+  "institucionmedica",
+  "fecharecepcion",
+  "horarecepcion",
+  "fechaalta",
+  "horaalta",
+  "observaciones",
+  "icon"
+ ],
+ "fields": [
+  {
+   "default": "Ninguna",
+   "fieldname": "aseguradora",
+   "fieldtype": "Select",
+   "ignore_user_permissions": 1,
+   "label": "Aseguradora",
+   "options": "Ninguna"
+  },
+  {
+   "fieldname": "vigenciaaseguradora",
+   "fieldtype": "Data",
+   "label": "Vigencia"
+  },
+  {
+   "fieldname": "nombreac",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre de Accidentado"
+  },
+  {
+   "fieldname": "curp",
+   "fieldtype": "Data",
+   "label": "C.U.R.P."
+  },
+  {
+   "fieldname": "domicilio",
+   "fieldtype": "Data",
+   "label": "Domicilio"
+  },
+  {
+   "fieldname": "atencion_section",
+   "fieldtype": "Section Break",
+   "label": "Atencion"
+  },
+  {
+   "default": "En sitio/ambulancia",
+   "fieldname": "tipoatencion",
+   "fieldtype": "Select",
+   "label": "Tipo de Atencion",
+   "options": "En sitio/ambulancia\nHospitalizacion\nDefuncion"
+  },
+  {
+   "fieldname": "institucionmedica",
+   "fieldtype": "Data",
+   "label": "Institucion Medica"
+  },
+  {
+   "fieldname": "fecharecepcion",
+   "fieldtype": "Date",
+   "label": "Fecha de Recepcion"
+  },
+  {
+   "fieldname": "horarecepcion",
+   "fieldtype": "Time",
+   "label": "Hora de Recepcion"
+  },
+  {
+   "fieldname": "fechaalta",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha de Alta"
+  },
+  {
+   "fieldname": "horaalta",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "hora de Alta"
+  },
+  {
+   "fieldname": "observaciones",
+   "fieldtype": "Data",
+   "label": "Observaciones"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "icon"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-02 04:23:45.382646",
+ "modified_by": "Administrator",
+ "module": "Movilidadapp",
+ "name": "Detalle Afectado",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

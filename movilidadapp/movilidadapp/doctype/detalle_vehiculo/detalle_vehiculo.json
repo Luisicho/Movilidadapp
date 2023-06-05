@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-26 04:09:09.542687",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehiculo_section",
+  "noeconomico",
+  "placas",
+  "descripcion",
+  "concesionario",
+  "column_break_kjqha",
+  "licencia_section",
+  "licencia",
+  "tipo",
+  "vigencia",
+  "nombre"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehiculo_section",
+   "fieldtype": "Section Break",
+   "label": "vehiculo"
+  },
+  {
+   "fieldname": "noeconomico",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "noeconomico"
+  },
+  {
+   "fieldname": "placas",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "placas"
+  },
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "descripcion"
+  },
+  {
+   "fieldname": "concesionario",
+   "fieldtype": "Data",
+   "label": "concesionario"
+  },
+  {
+   "fieldname": "column_break_kjqha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "licencia_section",
+   "fieldtype": "Section Break",
+   "label": "licencia"
+  },
+  {
+   "fieldname": "licencia",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "licencia"
+  },
+  {
+   "default": "Automovilista",
+   "fieldname": "tipo",
+   "fieldtype": "Select",
+   "label": "tipo",
+   "options": "Automovilista\nChofer\nMotociclista\nChofer Servicio Publico\nPermiso Menor"
+  },
+  {
+   "fieldname": "vigencia",
+   "fieldtype": "Data",
+   "label": "vigencia"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "nombre"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-02 01:56:11.886979",
+ "modified_by": "Administrator",
+ "module": "Movilidadapp",
+ "name": "Detalle Vehiculo",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

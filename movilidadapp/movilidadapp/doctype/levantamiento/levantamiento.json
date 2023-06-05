@@ -1,0 +1,295 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": ".#",
+ "creation": "2023-05-26 04:03:40.446926",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "folio",
+  "poliza",
+  "aseguradora",
+  "vigenciaaseguradora",
+  "column_break_gt7aw",
+  "fechallegada",
+  "horallegada",
+  "horaaccidente",
+  "ubicacion_section",
+  "ubicacion",
+  "entre",
+  "yentre",
+  "column_break_7lvme",
+  "longitud",
+  "latitud",
+  "fotos_levantamiento_section",
+  "foto1",
+  "foto2",
+  "foto3",
+  "column_break_ih5lk",
+  "foto4",
+  "foto5",
+  "foto6",
+  "vehiculo_section",
+  "noeconomico",
+  "placas",
+  "descripcion",
+  "concesionario",
+  "licencia_section",
+  "nolicencia",
+  "tipo",
+  "nombre",
+  "vigencia",
+  "icon",
+  "lista_vehiculos_section",
+  "casovehiculo",
+  "lista_afectados_section",
+  "casoafectado"
+ ],
+ "fields": [
+  {
+   "fieldname": "folio",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Folio"
+  },
+  {
+   "fieldname": "poliza",
+   "fieldtype": "Data",
+   "label": "Poliza"
+  },
+  {
+   "default": "Ninguna",
+   "fieldname": "aseguradora",
+   "fieldtype": "Select",
+   "label": "Aseguradora",
+   "options": "Ninguna"
+  },
+  {
+   "fieldname": "vigenciaaseguradora",
+   "fieldtype": "Data",
+   "label": "Vigencia de Aseguradora"
+  },
+  {
+   "fieldname": "column_break_gt7aw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fechallegada",
+   "fieldtype": "Date",
+   "label": "Fecha de Llegada"
+  },
+  {
+   "fieldname": "horallegada",
+   "fieldtype": "Time",
+   "label": "Hora de Llegada"
+  },
+  {
+   "fieldname": "horaaccidente",
+   "fieldtype": "Time",
+   "label": "Hora de Accidente"
+  },
+  {
+   "fieldname": "ubicacion_section",
+   "fieldtype": "Section Break",
+   "label": "Ubicacion"
+  },
+  {
+   "fieldname": "ubicacion",
+   "fieldtype": "Data",
+   "label": "Ubicacion"
+  },
+  {
+   "fieldname": "entre",
+   "fieldtype": "Data",
+   "label": "entre"
+  },
+  {
+   "fieldname": "yentre",
+   "fieldtype": "Data",
+   "label": "yentre"
+  },
+  {
+   "fieldname": "column_break_7lvme",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "longitud",
+   "fieldtype": "Data",
+   "label": "Longitud"
+  },
+  {
+   "fieldname": "latitud",
+   "fieldtype": "Data",
+   "label": "Latitud"
+  },
+  {
+   "fieldname": "fotos_levantamiento_section",
+   "fieldtype": "Section Break",
+   "label": "Fotos Levantamiento"
+  },
+  {
+   "fieldname": "foto1",
+   "fieldtype": "Attach Image",
+   "label": "foto1"
+  },
+  {
+   "fieldname": "foto2",
+   "fieldtype": "Attach Image",
+   "label": "foto2"
+  },
+  {
+   "fieldname": "foto3",
+   "fieldtype": "Attach Image",
+   "label": "foto3"
+  },
+  {
+   "fieldname": "column_break_ih5lk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foto4",
+   "fieldtype": "Attach Image",
+   "label": "foto4"
+  },
+  {
+   "fieldname": "foto5",
+   "fieldtype": "Attach Image",
+   "label": "foto5"
+  },
+  {
+   "fieldname": "foto6",
+   "fieldtype": "Attach Image",
+   "label": "foto6"
+  },
+  {
+   "fieldname": "vehiculo_section",
+   "fieldtype": "Section Break",
+   "label": "Vehiculo"
+  },
+  {
+   "fieldname": "noeconomico",
+   "fieldtype": "Data",
+   "label": "No. Economico"
+  },
+  {
+   "fieldname": "placas",
+   "fieldtype": "Data",
+   "label": "Placas"
+  },
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "Descripcion"
+  },
+  {
+   "fieldname": "concesionario",
+   "fieldtype": "Data",
+   "label": "Concesionario"
+  },
+  {
+   "fieldname": "licencia_section",
+   "fieldtype": "Section Break",
+   "label": "Licencia"
+  },
+  {
+   "fieldname": "nolicencia",
+   "fieldtype": "Data",
+   "label": "No. Licencia"
+  },
+  {
+   "default": "Automovilista",
+   "fieldname": "tipo",
+   "fieldtype": "Select",
+   "label": "Tipo de Licencia",
+   "options": "Automovilista\nChofer\nMotociclista\nChofer Servicio Publico\nPermiso Menor"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre"
+  },
+  {
+   "fieldname": "vigencia",
+   "fieldtype": "Data",
+   "label": "Vigencia"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "icon"
+  },
+  {
+   "fieldname": "lista_vehiculos_section",
+   "fieldtype": "Section Break",
+   "label": "Lista Vehiculos"
+  },
+  {
+   "fieldname": "casovehiculo",
+   "fieldtype": "Link",
+   "label": "Vehiculo",
+   "options": "Vehiculo"
+  },
+  {
+   "fieldname": "lista_afectados_section",
+   "fieldtype": "Section Break",
+   "label": "Lista Afectados"
+  },
+  {
+   "fieldname": "casoafectado",
+   "fieldtype": "Link",
+   "label": "Afetado",
+   "options": "Afectado"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-02 01:55:49.427595",
+ "modified_by": "Administrator",
+ "module": "Movilidadapp",
+ "name": "Levantamiento",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrativo Operativo",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "role": "Administrador Planeacion",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
