@@ -1,0 +1,80 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"HBmlnZ8mLc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Operativos</span>\",\"col\":12}},{\"id\":\"8FzWdZIMuu\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"zGxp-_lZwk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Levantamientos\",\"col\":4}},{\"id\":\"XWVLEm1YQA\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Afectados de Junio\",\"col\":4}},{\"id\":\"icJJku4iJH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Vehiculos de Junio\",\"col\":4}},{\"id\":\"gHXvrUt-3i\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"DQmU21jH7d\",\"type\":\"card\",\"data\":{\"card_name\":\"Usuarios\",\"col\":4}}]",
+ "creation": "2023-06-07 00:19:05.129188",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Operativos",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Usuarios",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lista Usuarios",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lista Roles",
+   "link_count": 0,
+   "link_to": "Role",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lista Permisos",
+   "link_count": 0,
+   "link_to": "permission-manager",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-06-07 04:34:40.941372",
+ "modified_by": "Administrator",
+ "module": "Movilidadapp",
+ "name": "Operativos",
+ "number_cards": [
+  {
+   "label": "Total Levantamientos",
+   "number_card_name": "Total Levantamientos"
+  },
+  {
+   "label": "Afectados de Junio",
+   "number_card_name": "Afectados de Junio"
+  },
+  {
+   "label": "Vehiculos de Junio",
+   "number_card_name": "Vehiculos de Junio"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Operativos"
+}

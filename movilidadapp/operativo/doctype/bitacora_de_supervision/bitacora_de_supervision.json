@@ -1,0 +1,211 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-07 04:50:16.826484",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datos_generales_section",
+  "estado",
+  "municipio",
+  "sede",
+  "fecha_de_supervision",
+  "column_break_zeqbe",
+  "supervisor_de_movilidad",
+  "turno",
+  "rutasitio",
+  "modalidad",
+  "hora",
+  "datos_especificos_section",
+  "no_economico",
+  "organizacion",
+  "column_break_mbqqg",
+  "marca",
+  "modelo",
+  "section_break_zjtad",
+  "placas",
+  "tarjeta_circulacion_section",
+  "vigencia_tarjeta",
+  "fecha_tarjeta",
+  "poliza_de_seguro_section",
+  "vigencia_poliza",
+  "fecha_poliza",
+  "horario_section",
+  "numero",
+  "hologramas"
+ ],
+ "fields": [
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "label": "Estado",
+   "options": "Nayarit\nSinaloa"
+  },
+  {
+   "fieldname": "municipio",
+   "fieldtype": "Select",
+   "label": "Municipio",
+   "options": "Tepic\nAtonalisco"
+  },
+  {
+   "fieldname": "sede",
+   "fieldtype": "Data",
+   "label": "SEDE"
+  },
+  {
+   "fieldname": "fecha_de_supervision",
+   "fieldtype": "Date",
+   "label": "Fecha de Supervision"
+  },
+  {
+   "fieldname": "supervisor_de_movilidad",
+   "fieldtype": "Data",
+   "label": "Supervisor de Movilidad"
+  },
+  {
+   "default": "Matutino",
+   "fieldname": "turno",
+   "fieldtype": "Select",
+   "label": "Turno",
+   "options": "Matutino\nVespertino"
+  },
+  {
+   "fieldname": "rutasitio",
+   "fieldtype": "Data",
+   "label": "Ruta/Sitio"
+  },
+  {
+   "fieldname": "modalidad",
+   "fieldtype": "Data",
+   "label": "Modalidad"
+  },
+  {
+   "fieldname": "hora",
+   "fieldtype": "Time",
+   "label": "Hora"
+  },
+  {
+   "fieldname": "datos_generales_section",
+   "fieldtype": "Section Break",
+   "label": "Datos Generales"
+  },
+  {
+   "fieldname": "column_break_zeqbe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "datos_especificos_section",
+   "fieldtype": "Section Break",
+   "label": "Datos Especificos"
+  },
+  {
+   "fieldname": "no_economico",
+   "fieldtype": "Data",
+   "label": "No. Economico"
+  },
+  {
+   "fieldname": "organizacion",
+   "fieldtype": "Data",
+   "label": "Organizacion"
+  },
+  {
+   "fieldname": "column_break_mbqqg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marca",
+   "fieldtype": "Data",
+   "label": "Marca"
+  },
+  {
+   "fieldname": "modelo",
+   "fieldtype": "Data",
+   "label": "Modelo"
+  },
+  {
+   "fieldname": "section_break_zjtad",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "placas",
+   "fieldtype": "Data",
+   "label": "Placas",
+   "length": 7
+  },
+  {
+   "fieldname": "tarjeta_circulacion_section",
+   "fieldtype": "Section Break",
+   "label": "Tarjeta Circulacion"
+  },
+  {
+   "fieldname": "vigencia_tarjeta",
+   "fieldtype": "Select",
+   "label": "Vigencia",
+   "options": "Vigente\nVencida"
+  },
+  {
+   "fieldname": "fecha_tarjeta",
+   "fieldtype": "Date",
+   "label": "Fecha"
+  },
+  {
+   "fieldname": "poliza_de_seguro_section",
+   "fieldtype": "Section Break",
+   "label": "Poliza de Seguro"
+  },
+  {
+   "fieldname": "vigencia_poliza",
+   "fieldtype": "Select",
+   "label": "Vigencia",
+   "options": "Vigente\nVencida"
+  },
+  {
+   "fieldname": "fecha_poliza",
+   "fieldtype": "Date",
+   "label": "Fecha"
+  },
+  {
+   "fieldname": "horario_section",
+   "fieldtype": "Section Break",
+   "label": "Horario"
+  },
+  {
+   "fieldname": "numero",
+   "fieldtype": "Data",
+   "label": "Numero"
+  },
+  {
+   "fieldname": "hologramas",
+   "fieldtype": "Select",
+   "label": "Hologramas",
+   "options": "Si\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-07 05:17:23.597081",
+ "modified_by": "Administrator",
+ "module": "Operativo",
+ "name": "Bitacora de Supervision",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,81 @@
+{
+ "charts": [
+  {
+   "chart_name": "Levantamientos",
+   "label": "Levantamientos del Mes"
+  }
+ ],
+ "content": "[{\"id\":\"x3tvgmJM0c\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Accidentes</span>\",\"col\":12}},{\"id\":\"QbWGyGGBl5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5BzadIX2LH\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Levantamientos del Mes\",\"col\":12}},{\"id\":\"NPsZL3YzPj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xHaVKrTDam\",\"type\":\"card\",\"data\":{\"card_name\":\"Accidentes\",\"col\":4}},{\"id\":\"_Er__Hz7Zk\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Ultimos Levantamientos\",\"col\":4}},{\"id\":\"TgKHndSG6b\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Afectados del mes\",\"col\":4}}]",
+ "creation": "2023-06-07 00:25:59.528708",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "small-file",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Accidentes",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accidentes",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Todos los Levantamientos",
+   "link_count": 0,
+   "link_to": "Levantamiento",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Todos los Afectados",
+   "link_count": 0,
+   "link_to": "Afectado",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Todos los Vehiculos",
+   "link_count": 0,
+   "link_to": "Vehiculo",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-06-07 04:34:41.541781",
+ "modified_by": "Administrator",
+ "module": "Movilidadapp",
+ "name": "Accidentes",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Operativos",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Levantamiento",
+   "label": "Ultimos Levantamientos"
+  },
+  {
+   "document_type": "Afectado",
+   "label": "Afectados del mes"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Accidentes"
+}
