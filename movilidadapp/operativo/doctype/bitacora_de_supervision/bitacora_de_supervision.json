@@ -27,14 +27,33 @@
   "section_break_zjtad",
   "placas",
   "tarjeta_circulacion_section",
-  "vigencia_tarjeta",
   "fecha_tarjeta",
+  "column_break_xoqnd",
+  "vigencia_tarjeta",
   "poliza_de_seguro_section",
-  "vigencia_poliza",
   "fecha_poliza",
+  "column_break_mksyx",
+  "vigencia_poliza",
   "horario_section",
   "numero",
-  "hologramas"
+  "column_break_ngap9",
+  "hologramas",
+  "section_break_q3vub",
+  "posturero",
+  "ruta_original",
+  "marcas_coche_section",
+  "foto1",
+  "foto2",
+  "column_break_xud8s",
+  "foto3",
+  "datos_operativos_section",
+  "operador",
+  "no_licencia",
+  "fecha_licencia",
+  "column_break_atwkc",
+  "otro",
+  "vigencia_licencia",
+  "section_break_ldkep"
  ],
  "fields": [
   {
@@ -140,10 +159,10 @@
    "label": "Tarjeta Circulacion"
   },
   {
+   "default": "0",
    "fieldname": "vigencia_tarjeta",
-   "fieldtype": "Select",
-   "label": "Vigencia",
-   "options": "Vigente\nVencida"
+   "fieldtype": "Check",
+   "label": "Vigencia"
   },
   {
    "fieldname": "fecha_tarjeta",
@@ -156,10 +175,10 @@
    "label": "Poliza de Seguro"
   },
   {
+   "default": "0",
    "fieldname": "vigencia_poliza",
-   "fieldtype": "Select",
-   "label": "Vigencia",
-   "options": "Vigente\nVencida"
+   "fieldtype": "Check",
+   "label": "Vigencia"
   },
   {
    "fieldname": "fecha_poliza",
@@ -177,15 +196,104 @@
    "label": "Numero"
   },
   {
+   "default": "0",
    "fieldname": "hologramas",
-   "fieldtype": "Select",
-   "label": "Hologramas",
-   "options": "Si\nNo"
+   "fieldtype": "Check",
+   "label": "Hologramas"
+  },
+  {
+   "fieldname": "posturero",
+   "fieldtype": "Text Editor",
+   "label": "Posturero"
+  },
+  {
+   "fieldname": "ruta_original",
+   "fieldtype": "Text Editor",
+   "label": "Ruta Original"
+  },
+  {
+   "fieldname": "marcas_coche_section",
+   "fieldtype": "Section Break",
+   "label": "Marcas Coche"
+  },
+  {
+   "fieldname": "foto1",
+   "fieldtype": "Attach",
+   "label": "Foto1"
+  },
+  {
+   "fieldname": "foto2",
+   "fieldtype": "Attach",
+   "label": "Foto2"
+  },
+  {
+   "fieldname": "foto3",
+   "fieldtype": "Attach",
+   "label": "Foto3"
+  },
+  {
+   "fieldname": "column_break_xoqnd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mksyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ngap9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_q3vub",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xud8s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "datos_operativos_section",
+   "fieldtype": "Section Break",
+   "label": "Datos Operativos"
+  },
+  {
+   "fieldname": "operador",
+   "fieldtype": "Data",
+   "label": "Operador"
+  },
+  {
+   "fieldname": "no_licencia",
+   "fieldtype": "Data",
+   "label": "No. Licencia"
+  },
+  {
+   "fieldname": "fecha_licencia",
+   "fieldtype": "Date",
+   "label": "Fecha"
+  },
+  {
+   "fieldname": "column_break_atwkc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "otro",
+   "fieldtype": "Data",
+   "label": "Otro"
+  },
+  {
+   "default": "0",
+   "fieldname": "vigencia_licencia",
+   "fieldtype": "Check",
+   "label": "Vigencia"
+  },
+  {
+   "fieldname": "section_break_ldkep",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-07 05:17:23.597081",
+ "modified": "2023-06-07 05:34:28.437523",
  "modified_by": "Administrator",
  "module": "Operativo",
  "name": "Bitacora de Supervision",

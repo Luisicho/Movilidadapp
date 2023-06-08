@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"D6A9NoZlBj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Infracciones</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"D6A9NoZlBj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Infracciones</span>\",\"col\":12}},{\"id\":\"ELSglfkwjC\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LibzRRb4m7\",\"type\":\"card\",\"data\":{\"card_name\":\"Infracciones\",\"col\":4}}]",
  "creation": "2023-06-07 04:27:36.620675",
  "custom_blocks": [],
  "docstatus": 0,
@@ -11,8 +11,27 @@
  "idx": 0,
  "is_hidden": 0,
  "label": "Infracciones",
- "links": [],
- "modified": "2023-06-07 04:37:14.412969",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Infracciones",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bitacoras",
+   "link_count": 0,
+   "link_to": "Bitacora de Supervision",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-06-07 05:40:49.141006",
  "modified_by": "Administrator",
  "module": "Movilidadapp",
  "name": "Infracciones",
